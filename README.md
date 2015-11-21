@@ -19,46 +19,46 @@
 
  Test Instructions:
 
- > mm <- makeCacheMatrix (matrix(2:5,nrow=2,ncol=2))
- 
- MC - Entering the function at the top creating a new object ...
- 
- > mm$getinv()
- 
- MC - Return the inverted matrix ...
- 
- NULL
- 
- > cacheSolve(mm)
- 
- CS - Entering cachemean function ...
- 
- MC - Return the inverted matrix ...
- 
- CS - Calculating the mean ...
- 
- MC - Return the matrix ...
- 
- MC - Allocate the inverted matrix ...
- 
- CS - Return the inverted matrix ...
- 
- [,1] [,2]
- 
- [1,] -2.5    2
- 
- [2,]  1.5   -1
- 
- > mm$get()
- 
- MC - Return the matrix ...
- 
- [,1] [,2]
- 
- [1,]    2    4
- 
- [2,]    3    5
- 
+     mm <- makeCacheMatrix (matrix(2:5,nrow=2,ncol=2))
+     
+     MC - Entering the function at the top creating a new object ...
+     
+     mm$getinv()
+     
+     MC - Return the inverted matrix ...
+     
+     NULL
+     
+     cacheSolve(mm)
+     
+     CS - Entering cachemean function ...
+     
+     MC - Return the inverted matrix ...
+     
+     CS - Calculating the mean ...
+     
+     MC - Return the matrix ...
+     
+     MC - Allocate the inverted matrix ...
+     
+     CS - Return the inverted matrix ...
+     
+     [,1] [,2]
+     
+     [1,] -2.5    2
+     
+     [2,]  1.5   -1
+     
+     mm$get()
+     
+     MC - Return the matrix ...
+     
+     [,1] [,2]
+     
+     [1,]    2    4
+     
+     [2,]    3    5
+     
  ========================================================================
 
 # makeCacheMatrix
@@ -137,7 +137,6 @@ makeCacheMatrix <- function(x = matrix()) {
                necessarily the correct one, just return
                what is available in the main object structure.
  ========================================================================
-<<<<<<< HEAD
  
     cacheSolve <- function(x, ...) {
       
