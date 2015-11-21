@@ -29,7 +29,7 @@ Versioning and release historry:
 
      mm <- makeCacheMatrix (matrix(2:5,nrow=2,ncol=2))
      MC - Entering the function at the top creating a new object ...
-
+    
      mm$getinv()
      MC - Return the inverted matrix ...
      NULL
@@ -51,6 +51,12 @@ Versioning and release historry:
      [1,]    2    4
      [2,]    3    5
      
+    mm$getinv()
+    MC - Return the inverted matrix ...
+    [,1] [,2]
+    [1,] -2.5    2
+    [2,]  1.5   -1
+ 
 
 # makeCacheMatrix
 
