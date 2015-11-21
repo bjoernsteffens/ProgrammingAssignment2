@@ -1,11 +1,16 @@
 # Overview
 
- Filename:     cacheMatrix.R
-
- Functions:    makeCacheMatrix
+ Filename:     
  
-               cacheSolve
+ cacheMatrix.R
 
+ Functions:
+ 
+ makeCacheMatrix
+ 
+ cacheSolve
+
+ 
  Author:       Bjoern W. Steffens
  
  Date:         2015-11-21
