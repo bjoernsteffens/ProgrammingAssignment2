@@ -6,7 +6,8 @@
 #
 # Author:       Bjoern W. Steffens
 # Date:         2015-11-21
-# Version:      1.1
+# Version:      1.1 - Initial
+#               1.2 - Cleaning up comments
 #
 # Comments:     The code has been extensively
 #               commented for any reader to be able to
