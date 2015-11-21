@@ -40,15 +40,12 @@ Versioning and release historry:
      MC - Return the matrix ...
      MC - Allocate the inverted matrix ...
      CS - Return the inverted matrix ...
-     
      [,1] [,2]
      [1,] -2.5    2
      [2,]  1.5   -1
      
      mm$get()
-     
      MC - Return the matrix ...
-     
      [,1] [,2]
      [1,]    2    4
      [2,]    3    5
