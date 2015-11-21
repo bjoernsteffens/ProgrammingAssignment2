@@ -56,11 +56,11 @@ Versioning and release historry:
 
 # makeCacheMatrix
 
-     Function:     makeCacheMatrix
+    Function:   makeCacheMatrix
     
-     Purpose:      Create a list of functions needed to store the 
-                   matrix itself and the inverted matrix
-                   manufactured by cacheSolve
+    Purpose:    Create a list of functions needed to store the 
+                matrix itself and the inverted matrix
+                manufactured by cacheSolve
 
 
     makeCacheMatrix <- function(x = matrix()) {
