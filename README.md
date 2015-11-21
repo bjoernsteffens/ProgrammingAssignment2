@@ -56,13 +56,12 @@ Versioning and release historry:
 
 # makeCacheMatrix
 
- ========================================================================
- Function:     makeCacheMatrix
+     Function:     makeCacheMatrix
+    
+     Purpose:      Create a list of functions needed to store the 
+                   matrix itself and the inverted matrix
+                   manufactured by cacheSolve
 
- Purpose:      Create a list of functions needed to store the 
-               matrix itself and the inverted matrix
-               manufactured by cacheSolve
- ========================================================================
 
     makeCacheMatrix <- function(x = matrix()) {
         
@@ -122,16 +121,15 @@ Versioning and release historry:
 
 # cacheSolve
 
- ========================================================================
- Function:     cacheSolve
 
- Purpose:      Calculate and assign the inverted matrix
-               of the object passed in. If the inverse
-               has been calculated already, meaning not
-               necessarily the correct one, just return
-               what is available in the main object structure.
- ========================================================================
- 
+     Function:     cacheSolve
+    
+     Purpose:      Calculate and assign the inverted matrix
+                   of the object passed in. If the inverse
+                   has been calculated already, meaning not
+                   necessarily the correct one, just return
+                   what is available in the main object structure.
+
     cacheSolve <- function(x, ...) {
       
         message("CS - Entering cachemean function ...")
