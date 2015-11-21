@@ -118,7 +118,7 @@ makeCacheMatrix <- function(x = matrix()) {
                what is available in the main object structure.
  ========================================================================
 {
-cacheSolve <- function(x, ...) {
+cacheSolve <- function(x, ...) 
   
     message("CS - Entering cachemean function ...")
     
@@ -147,7 +147,6 @@ cacheSolve <- function(x, ...) {
     message("CS - Return the inverted matrix ...")
     v_invert
     
-}
 }
 
 
