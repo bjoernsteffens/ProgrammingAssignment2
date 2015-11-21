@@ -137,37 +137,36 @@ makeCacheMatrix <- function(x = matrix()) {
                necessarily the correct one, just return
                what is available in the main object structure.
  ========================================================================
-{
-cacheSolve <- function(x, ...) 
-  
-    message("CS - Entering cachemean function ...")
-    
-     Retrive the "cached" inverted matrix
-    v_invert <- x$getinv()
-    
-     If it exist v_invert != NULL and
-     can be returned. You could add a number
-     of tests here to ensure it is actaully a 
-     matrix etc.
-    if(!is.null(v_invert)) {
-        message("CS - Getting cached data ...")
-         Stop here, no further processing
-         is required and return v_invert
-        return(v_invert)
+    cacheSolve <- function(x, ...) 
+      
+        message("CS - Entering cachemean function ...")
+        
+         Retrive the "cached" inverted matrix
+        v_invert <- x$getinv()
+        
+         If it exist v_invert != NULL and
+         can be returned. You could add a number
+         of tests here to ensure it is actaully a 
+         matrix etc.
+        if(!is.null(v_invert)) {
+            message("CS - Getting cached data ...")
+             Stop here, no further processing
+             is required and return v_invert
+            return(v_invert)
+        }
+        
+         Start calculating the inverted matrix using the 
+         solve function. Once completed allocate the inverted 
+         matrix to x
+        message("CS - Calculating the mean ...")
+        v_tmp <- x$get()
+        v_invert <- solve(v_tmp, ...)
+        x$setinv(v_invert)
+        
+        message("CS - Return the inverted matrix ...")
+        v_invert
+        
     }
-    
-     Start calculating the inverted matrix using the 
-     solve function. Once completed allocate the inverted 
-     matrix to x
-    message("CS - Calculating the mean ...")
-    v_tmp <- x$get()
-    v_invert <- solve(v_tmp, ...)
-    x$setinv(v_invert)
-    
-    message("CS - Return the inverted matrix ...")
-    v_invert
-    
-}
 
 
 
