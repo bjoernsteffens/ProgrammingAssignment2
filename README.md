@@ -21,9 +21,8 @@ Versioning and release historry:
      commented for any reader to be able to
      understand my thinking. All these comments
      are also there for me to be able to understand
-     what was going on next time when I look at this
-     to remind me what is going on under the hood
-     here.
+     what was "happened" next time I go back
+     trying to remind me how this all fits together.
 
  Test Instructions:
 
