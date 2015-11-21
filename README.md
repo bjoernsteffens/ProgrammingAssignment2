@@ -137,6 +137,7 @@ makeCacheMatrix <- function(x = matrix()) {
                necessarily the correct one, just return
                what is available in the main object structure.
  ========================================================================
+<<<<<<< HEAD
  
     cacheSolve <- function(x, ...) {
       
@@ -168,6 +169,7 @@ makeCacheMatrix <- function(x = matrix()) {
         v_invert
         
     }
+
 
 
 
