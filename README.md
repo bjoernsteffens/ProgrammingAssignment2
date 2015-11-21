@@ -97,10 +97,11 @@ Versioning and release historry:
             x
         }
         
-         Here is where the inverted matrix is allocated
-         by the cacheSolve function. The y is passed in 
-         as a variable from the external (<<-) environment
-         and that is what you need to assign to v_invert.
+        Here is where the inverted matrix is allocated
+        by the cacheSolve function. The y is passed in 
+        as a variable from the external (<<-) environment
+        and that is what you need to assign to v_invert.
+        
         setinv <- function(mean) {
             message("MC - Allocate the inverted matrix ...")
             v_invert <<- mean
