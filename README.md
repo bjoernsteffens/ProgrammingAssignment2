@@ -2,9 +2,10 @@
 
 Versioning and release historry:
 
-     Author:       Bjoern W. Steffens
-     Date:         2015-11-21
-     Version:      1.1
+     Author:    Bjoern W. Steffens
+     Date:      2015-11-21
+     Version:   1.1 - Initial
+                1.2 - Cleaning up comments
      
  Filename:     
  
