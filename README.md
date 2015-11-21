@@ -1,5 +1,11 @@
 # Overview
 
+Versioning and release historry:
+
+     Author:       Bjoern W. Steffens
+     Date:         2015-11-21
+     Version:      1.1
+     
  Filename:     
  
      cacheMatrix.R
@@ -8,13 +14,6 @@
  
      makeCacheMatrix
      cacheSolve
-
- 
- Author:       Bjoern W. Steffens
- 
- Date:         2015-11-21
- 
- Version:      1.1
 
  Comments:     
  
