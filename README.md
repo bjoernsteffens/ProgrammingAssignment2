@@ -137,7 +137,8 @@ makeCacheMatrix <- function(x = matrix()) {
                necessarily the correct one, just return
                what is available in the main object structure.
  ========================================================================
-    cacheSolve <- function(x, ...) 
+ 
+    cacheSolve <- function(x, ...) {
       
         message("CS - Entering cachemean function ...")
         
